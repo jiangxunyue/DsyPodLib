@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xvjifeng@sina.com' => 'shaoyuan@duohee.com' }
-  s.source           = { :git => 'https://github.com/xvjifeng@sina.com/DsyPodLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jiangxunyue/DsyPodLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DsyPodLib/Classes/**/*'
+  # s.source_files = 'DsyPodLib/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DsyPodLib' => ['DsyPodLib/Assets/*.png']
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'DsyPodLib/DsyPodLib.framework'
 end
